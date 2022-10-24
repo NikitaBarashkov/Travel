@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Travel Portal</title>
+  <link href="./style/style.css" rel="stylesheet">
+  <link href="./assets/ico/favicon.ico" rel="icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,400;0,700;1,400;1,700&family=Magra:wght@400;700&family=Red+Hat+Text:wght@500&display=swap" rel="stylesheet">
+</head>
+<body class="body">
+  
+  <div class="area-popup">
+    <div class="popup">
+      <div class="popup-block">
+        <div class="popup_item">
+          <h2 class="popup_item__title">
+            Log in to your account
+          </h2>
+        </div>
+        <div class="popup_item">
+          <div class="popup_item__log-web">
+            <img src="./assets/ico/facebook.svg" alt="#">
+            <a href="https://www.facebook.com/">Sign In with Facebook</a>
+          </div>
+          <div class="popup_item__log-web">
+            <img src="./assets/ico/GoogleLogo.svg" alt="#">
+            <a href="https://www.google.com/">Sign In with Google</a>
+          </div>
+        </div>
+        <div class="popup_item">
+          <span class="popup_item__decorline">
+            or
+          </span>
+        </div>
+        <div class="popup_item">
+          <h4 class="popup__text">
+            E-mail
+          </h4>
+          <input class="popup_input" type="email">
+          <h4 class="popup__text">
+            Password
+          </h4> 
+          <input class="popup_input" type="password"><br>
+          <input class="popup_input submit" type="submit" value="Sign In"><br>
+          <a class="popup_link"> Forgot Your Password?</a>
+          <br>
+          <span class="decorline"></span>
+          <div class="popup-block_reg">
+            <h4 class="popup__text" id="popup-text-change">Don't have on account?</h4>
+              <button class="popup_link__register" id="popup-link-change">Register</button>
+          </div>
+        </div>
+       </div>
+    </div>
+  </div>
+  
+  <header class="header">
+    <div class="header-double-back">
+      <div class="header_name-page">
+        <div class="icon-page">
+          <img src="./assets/ico/icon-page.svg" alt="icon">
+        </div>
+        <div>
+          <span class="icon-page_name">Travel Portal</span>
+        </div>
+      </div>
+      <nav class="header_nav">
+        <ul class="header_nav-list">
+          <li class="nav-item"><a href="#preview">How It Works</a></li>
+          <li class="nav-item"><a href="#plan-trip">Plan Your Trip</a></li>
+          <li class="nav-item"><a href="#destinations">Destinations</a></li>
+          <li class="nav-item"><a href="#stories">Travel Stories</a></li>
+        </ul>
+      </nav>
+      <div class="header_btn">
+        <button class="blue-button">Login</button>   
+      </div>
+    </div>  
+  </header>
+  <main class="content">
+    <section class="content_preview" id="preview">
+      <div class="menu-burger">
+        <div class="icon-burger icon_active">
+            <span class="icon-burger_item"></span>
+            <span class="icon-burger_item"></span>
+            <span class="icon-burger_item"></span>
+        </div>
+        <nav class="burger-nav">
+          <ul class="burger_nav-list">
+            <li class="nav-item"><a href="#preview">How It Works</a></li>
+            <li class="nav-item"><a href="#plan-trip">Plan Your Trip</a></li>
+            <li class="nav-item"><a href="#destinations">Destinations</a></li>
+            <li class="nav-item"><a href="#stories">Travel Stories</a></li>
+            <li class="nav-item"><a href="#" id="account">Account</a></li>
+            <li class="nav-item"><a href="#social-media">Social Media</a></li>
+          </ul>
+        </nav>
+      </div> 
+      <div class="duble-backgr-mobile">  
+        <div class="mobile_header">
+          <div class="icon-page">
+            <img src="./assets/ico/icon-page.svg" alt="icon">
+          </div>
+          <div class="icon-burger">
+            <span class="icon-burger_item"></span>
+            <span class="icon-burger_item"></span>
+            <span class="icon-burger_item"></span>
+          </div>
+        </div>
+        <div class="content_preview-plan-trip">
+          <div>
+            <h1 class="plan-trip_topic">
+              Explore the beauty of <br>the World
+            </h1>
+          </div>
+          <div class="plan-trip_recommendations">
+            <p>
+              Recieve personalized recommendations for countries,
+              hotels, activities and more
+            </p>
+          </div>
+          <div class="plan-trip_search-form">
+            <form method="post" action="#">
+              <input class="search-form" type="text" placeholder="What would you like to do?">
+              <button class="blue-button big-btn">Start Planning</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="content_steps" id="plan-trip">
+      <div class="content_steps-container">
+        <div class="content_steps_topic">
+          <h2 class="steps-topic">
+            3 STEPS TO THE PERFECT TRIP
+          </h2>
+        </div>
+        <div class="content_steps_forms">
+          <div class="steps-forms">
+            <div class="steps-forms_card">
+              <img src="./assets/ico/Vector-bike.svg" alt="your desires">
+            </div>
+            <div class="steps-forms_name">
+              <h4>
+                Tell us what you want to do
+              </h4>
+            </div>
+          </div>
+          <div class="steps-forms">
+            <div class="steps-forms_card">
+              <img src="./assets/ico/calendar.svg" alt="data travel">
+            </div>
+            <div class="steps-forms_name">
+              <h4>
+                Share us preferable dates 
+              </h4>
+            </div>
+          </div>
+          <div class="steps-forms">
+            <div class="steps-forms_card">
+              <img src="./assets/ico/plane.svg" alt="Our recommendations">
+            </div>
+            <div class="steps-forms_name">
+              <h4>
+                We will give you recommendations
+              </h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="content_destinations" id="destinations">
+      <div class="content-destinations_topic">
+        <h2 class="steps-topic">
+          POPULAR DESTINATIONS
+        </h2>
+      </div>
+      <div class="content-destinations_img">
+        <div class="slider-container">
+        <div class="card-img">
+          <img class="card-img-mobile" src="./assets/mobile/Rectangle26.jpg" alt="SPAIN">
+          <div class="card-img-inside-btn">
+            <div class="prev-btn">
+            </div>
+            <div class="next-btn">
+            </div>
+          </div>
+          <span class="card-img_name-country">SPAIN</span>
+          <div class="buttons-for-mobile">
+            <div class="buttons-for-mobile_name">
+              <span>SPAIN</span>
+            </div>
+           </div>
+        </div>
+        <div class="card-img">
+          <img class="card-img-mobile" src="./assets/mobile/Rectangle34.jpg" alt="Japan">
+          <div class="card-img-inside-btn">
+            <div class="prev-btn">
+            </div>
+            <div class="next-btn">
+            </div>
+          </div>
+          <span class="card-img_name-country">JAPAN</span>
+          <div class="buttons-for-mobile">
+            <div class="buttons-for-mobile_name">
+              <span>JAPAN</span>
+            </div>
+          </div>
+        </div>
+        <div class="card-img">
+          <img class="card-img-mobile" src="./assets/mobile/Rectangle35.jpg" alt="USA">
+          <div class="card-img-inside-btn">
+            <div class="prev-btn">
+            </div>
+            <div class="next-btn">
+            </div>
+          </div>
+          <span class="card-img_name-country">USA</span>
+          <div class="buttons-for-mobile">
+            <div class="buttons-for-mobile_name">
+              <span>USA</span>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+      <div class="buttons-for-mobile_btn1">
+        <button class="slide-card-img_btn">&lt</button>
+        <button class="slide-card-img_btn">&gt</button>
+      </div>
+      <div class="buttons-for-mobile_forms1">
+        <input type="radio" class="fake_radio-btn" name="1" id="first-img">
+        <input type="radio" class="fake_radio-btn" name="1" id="second-img">
+        <input type="radio" class="fake_radio-btn" name="1" id="third-img">
+        <label for="first-img" class="forms__radio-btn checked-form"></label>
+        <label for="second-img" class="forms__radio-btn normal-form"></label>
+        <label for="third-img" class="forms__radio-btn normal-form"></label>
+      </div>
+      </div>
+      <div class="content-destinations_forms">
+        <div class="forms_radio-box">
+          <input type="radio" class="fake_radio-btn" name="1" id="first-img">
+          <input type="radio" class="fake_radio-btn" name="1" id="second-img">
+          <input type="radio" class="fake_radio-btn" name="1" id="third-img">
+          <label for="first-img" class="forms__radio-btn normal-form"></label>
+          <label for="second-img" class="forms__radio-btn checked-form"></label>
+          <label for="third-img" class="forms__radio-btn normal-form"></label>
+        </div>
+        <div>
+          <button class="blue-button big-btn">
+            <span class="arrow-btn">&#8594</span>Find More
+          </button>
+        </div>
+      </div>
+      <div class="content-distanations_blue-btn">
+        <button class="blue-button big-btn">
+          &#8594 Find More
+        </button>
+      </div>
+    </section>
+    <section class="content_stories" id="stories">
+      <div>
+        <h2 class="steps-topic">
+          TRAVEL STORIES
+        </h2>
+      </div>
+      <div class="stories_container">  
+        <div class="content_stories-double-back">
+          <div class="content_stories_block">
+            <div class="stories_block__cards">
+              <div class="block_cards__img">
+                <img src="./assets/dekstop/Rectangle29.jpg" alt="some image">
+              </div>
+              <div class="block_cards__text">
+                <h3 class="block_cards__text-topic">10 Photos of Attractive Thailand
+                </h3>
+                <p class="block_cards__text-content">Lorem ipsum dolor sit amet, 
+                  consectetur adipiscing elit, sed do 
+                  eiusmod tempor incididunt ut labore 
+                  et dolore magna aliqua. Ut enim ad 
+                  minim veniam, quis nostrud exercitation
+                  ullamco laboris nisi ut aliquip ex ea 
+                  commodo consequat. Duis aute irure dolor
+                  in reprehenderit in voluptate velit esse
+                  cillum dolore eu fugiat nulla pariatur. 
+                  Excepteur sint occaecat cupidatat non 
+                  proident, sunt in culpa qui officia deserunt 
+                  mollit anim id est laborum.Lorem ipsum dolor 
+                  sit amet, consectetur adipiscing elit... 
+                  <a href="#">Read More</a>
+                </p>
+                <p class="block_cards__text-content__mobile">
+                  Lorem ipsum dolor sit amet, consectetur 
+                  adipiscing elit, sed do eiusmod tempor 
+                  incididunt ut labore et dolore magna aliqua. 
+                  Ut enim ad minim veniam, quis nostrud exercitation
+                  laboris nisi ut aliquip ex ea commodo consequat. 
+                  Duis aute irure dolor in reprehenderit 
+                  in voluptate velit esse cillum dolore eu 
+                  fugiat nulla.Lorem ipsum dolor sit a...
+                  <a href="#">Read More</a>
+                </p>
+              </div>
+            </div>
+            <div class="stories_block__cards">
+              <div class="block_cards__img">
+                <img src="./assets/dekstop/Rectangle30.jpg" alt="some image">
+              </div>
+              <div class="block_cards__text">
+                <h3 class="block_cards__text-topic">
+                  Canyonlands National Park, Utah
+                </h3>
+                <p class="block_cards__text-content">Lorem ipsum dolor sit amet, 
+                  consectetur adipiscing elit, sed do 
+                  eiusmod tempor incididunt ut labore 
+                  et dolore magna aliqua. Ut enim ad 
+                  minim veniam, quis nostrud exercitation
+                  ullamco laboris nisi ut aliquip ex ea 
+                  commodo consequat. Duis aute irure dolor
+                  in reprehenderit in voluptate velit esse
+                  cillum dolore eu fugiat nulla pariatur. 
+                  Excepteur sint occaecat cupidatat non 
+                  proident, sunt in culpa qui officia deserunt 
+                  mollit anim id est laborum.Lorem ipsum dolor 
+                  sit amet, consectetur adipiscing elit... 
+                  <a href="#">Read More</a>
+                </p>
+                <p class="block_cards__text-content__mobile">
+                  Lorem ipsum dolor sit amet, consectetur 
+                  adipiscing elit, sed do eiusmod tempor 
+                  incididunt ut labore et dolore magna aliqua. 
+                  Ut enim ad minim veniam, quis nostrud exercitation
+                  laboris nisi ut aliquip ex ea commodo consequat. 
+                  Duis aute irure dolor in reprehenderit 
+                  in voluptate velit esse cillum dolore eu 
+                  fugiat nulla.Lorem ipsum dolor sit a...
+                  <a href="#">Read More</a>
+                </p>
+              </div>
+            </div>
+            <div class="stories_block__cards">
+              <div class="block_cards__img">
+                <img src="./assets/dekstop/Rectangle31.jpg" alt="some image">
+              </div>
+              <div class="block_cards__text">
+                <h3 class="block_cards__text-topic">
+                  I left my heart in the Mountains!
+                </h3>
+                <p class="block_cards__text-content">Lorem ipsum dolor sit amet, 
+                  consectetur adipiscing elit, sed do 
+                  eiusmod tempor incididunt ut labore 
+                  et dolore magna aliqua. Ut enim ad 
+                  minim veniam, quis nostrud exercitation
+                  ullamco laboris nisi ut aliquip ex ea 
+                  commodo consequat. Duis aute irure dolor
+                  in reprehenderit in voluptate velit esse
+                  cillum dolore eu fugiat nulla pariatur. 
+                  Excepteur sint occaecat cupidatat non 
+                  proident, sunt in culpa qui officia deserunt 
+                  mollit anim id est laborum.Lorem ipsum dolor 
+                  sit amet, consectetur adipiscing elit... 
+                  <a href="#">Read More</a>
+                </p>
+                <p class="block_cards__text-content__mobile">
+                  Lorem ipsum dolor sit amet, consectetur 
+                  adipiscing elit, sed do eiusmod tempor 
+                  incididunt ut labore et dolore magna aliqua. 
+                  Ut enim ad minim veniam, quis nostrud exercitation
+                  laboris nisi ut aliquip ex ea commodo consequat. 
+                  Duis aute irure dolor in reprehenderit 
+                  in voluptate velit esse cillum dolore eu 
+                  fugiat nulla.Lorem ipsum dolor sit a...
+                  <a href="#">Read More</a>
+                </p>
+              </div>
+            </div>
+            <div class="stories_block__cards">
+              <div class="block_cards__img">
+                <img src="./assets/dekstop/Rectangle32.jpg" alt="some image">
+              </div>
+              <div class="block_cards__text">
+                <h3 class="block_cards__text-topic">
+                  The Longest journey in my life!
+                </h3>
+                <p class="block_cards__text-content">Lorem ipsum dolor sit amet, 
+                  consectetur adipiscing elit, sed do 
+                  eiusmod tempor incididunt ut labore 
+                  et dolore magna aliqua. Ut enim ad 
+                  minim veniam, quis nostrud exercitation
+                  ullamco laboris nisi ut aliquip ex ea 
+                  commodo consequat. Duis aute irure dolor
+                  in reprehenderit in voluptate velit esse
+                  cillum dolore eu fugiat nulla pariatur. 
+                  Excepteur sint occaecat cupidatat non 
+                  proident, sunt in culpa qui officia deserunt 
+                  mollit anim id est laborum.Lorem ipsum dolor 
+                  sit amet, consectetur adipiscing elit... 
+                  <a href="#">Read More</a>
+                </p>
+                <p class="block_cards__text-content__mobile">
+                  Lorem ipsum dolor sit amet, consectetur 
+                  adipiscing elit, sed do eiusmod tempor 
+                  incididunt ut labore et dolore magna aliqua. 
+                  Ut enim ad minim veniam, quis nostrud exercitation
+                  laboris nisi ut aliquip ex ea commodo consequat. 
+                  Duis aute irure dolor in reprehenderit 
+                  in voluptate velit esse cillum dolore eu 
+                  fugiat nulla.Lorem ipsum dolor sit a...
+                  <a href="#">Read More</a>
+                </p>
+              </div>
+            </div>
+            <div class="block_cards__btn">
+              <button class="blue-button big-btn">
+                <span class="arrow-btn">&#8594</span> See More
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="foot" id="social-media">
+    <div class="foot_container">
+      <div class="foot_container__list">
+        <h4>All Rights Reserved © Travel Portal</h4>
+      </div>
+      <div class="foot_container__list web">
+        <ul class="web-pages">
+          <li>
+            <a href="https://github.com/NikitaBarashkov"><img src="./assets/ico/insta.svg" alt="instagram" class="web-pages_icon"></a>
+          </li>
+          <li>
+            <a href="https://rs.school/js-stage0/"><img src="./assets/ico/youtube3.svg" alt="youtebe" class="web-pages_icon"></a>
+          </li>
+          <li>
+            <a href="#"><img src="./assets/ico/twitter.svg" alt="twitter" class="web-pages_icon"></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+  <script src="./app/index.js"></script>
+  <script src="./app/popup.js"></script>
+</body>
+</html>
